@@ -22,33 +22,28 @@ int main(int argc, char* argv[]) {
 }
 ```
 
+- `argc`   : argv[] size，吃進的參數的個數。
+- `argv[]` : 吃進參數會放到 argv Array 裡面。
+- `argv[0]`: 其中 index = 0 為程式的路徑。
+
 ## 執行
 ### Linux Command line
 ```
+$ ./run 0 1 "aa"
 
+=> argc = 4
+=> argv[0] = ./run
+
+=> argv[1] = 0
+=> argv[2] = 1
+=> argv[3] = aa
 ```
 
-![Command line Arguments in C++]()
+![Command line Arguments in C++](https://raw.github.com/evenchange4/102-1_DS_TA_Sample-code/master/Arguments%20in%20C++/CML%20argv%20in%20C++.png)
 
 
-## 如何執行
+### DevC++
+![DevC++ arguments](https://raw.github.com/evenchange4/102-1_DS_TA_Sample-code/master/Arguments%20in%20C++/devc++%20argv.png)
 
-R cmd:
-
-```
-> source("/path_to/bayesian_regression.r")
-```
-
-example: （可用拖曳方式取得路徑）
-
-```
-> source("/Users/michaelhsu/Dropbox/15.\ 碩一上課業/02.\ DMIR\ 資料探勘與資訊檢 索/hw2/bayesian_regression.r")
-```
-
-## Result (plot the RMSE with respect to 𝜆)
-
-![Vary 𝜆 and plot the RMSE with respect to 𝜆](https://raw.github.com/evenchange4/102-1_DMIR_Hw2_Bayesian-Regression/master/plot%20rmse.png)
-
-## Source code
-
-[https://github.com/evenchange4/102-1_DMIR_Hw2_Bayesian-Regression](https://github.com/evenchange4/102-1_DMIR_Hw2_Bayesian-Regression)
+## Reference
+- [Command Line Arguments in C++](http://www.site.uottawa.ca/~lucia/courses/2131-05/labs/Lab3/CommandLineArguments.html)
