@@ -22,7 +22,7 @@ The Sample code from NTU102-1 [DS](https://ceiba.ntu.edu.tw/course/a5436b/index.
 
 - `argv[]` : 吃進參數會放到 argv Array 裡面。
 
-## file parse Source code
+## File parse Source code
 
 ```
     // ################### file parse ###################
@@ -69,7 +69,7 @@ The Sample code from NTU102-1 [DS](https://ceiba.ntu.edu.tw/course/a5436b/index.
 $ ./run input1.txt
 ```
 
-## Output result `output1.txt`
+## Result output file `output1.txt`
 
 ```
 7+3+6
