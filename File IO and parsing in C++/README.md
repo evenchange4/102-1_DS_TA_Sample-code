@@ -27,9 +27,9 @@ The Sample code from NTU102-1 [DS](https://ceiba.ntu.edu.tw/course/a5436b/index.
 ```
     // ################### file parse ###################
     char m;
+    int a, b;
 
     while (!fin.eof()){  //­ not End-of-file，尚未讀到結尾。
-        int a, b;
 
         m = fin.get(); // 一次吃一個 character
         if( m == '+'){
