@@ -2,7 +2,7 @@
 
 The Sample code from NTU102-1 [DS](https://ceiba.ntu.edu.tw/course/a5436b/index.htm) course
 
-**by NTU [Michael Hsu](http://michaelhsu.tw/ "blog")**
+**by NTU 河童 [Michael Hsu](http://michaelhsu.tw/ "blog")**
 
 ## Source code
 
