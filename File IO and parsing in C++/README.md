@@ -4,7 +4,7 @@ The Sample code from NTU102-1 [DS](https://ceiba.ntu.edu.tw/course/a5436b/index.
 
 **by NTU [Michael Hsu](http://michaelhsu.tw/ "blog")**
 
-## File IO Source code
+## File IO Source code `open()`
 
 ```
     // ################### file IO ###################
@@ -22,7 +22,7 @@ The Sample code from NTU102-1 [DS](https://ceiba.ntu.edu.tw/course/a5436b/index.
 
 - `argv[]` : 吃進參數會放到 argv Array 裡面。
 
-## File parse Source code
+## File parse Source code `get()`
 
 ```
     // ################### file parse ###################
