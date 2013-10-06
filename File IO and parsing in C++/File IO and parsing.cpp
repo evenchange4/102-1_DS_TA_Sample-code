@@ -42,9 +42,9 @@ int main(int argc, char *argv[])
 
     // ################### file parse ###################
     char m;
+    int a, b;
 
     while (!fin.eof()){  //­ not End-of-file，尚未讀到結尾。
-        int a, b;
 
         m = fin.get(); // 一次吃一個 character
         if( m == '+'){
